@@ -67,7 +67,7 @@ function ContactPage({ setCurrentPage }) {
     <div className="contact-page">
       {/* Navigation */}
       <nav className="navbar">
-        <div className="logo" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} style={{ cursor: 'pointer' }}>
+        <div className="logo" onClick={() => setCurrentPage('landing')} style={{ cursor: 'pointer' }}>
           <div className="logo-icon">🦺</div>
           <span>WearAware</span>
         </div>
